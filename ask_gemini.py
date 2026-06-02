@@ -40,7 +40,7 @@ if len(sys.argv) < 2:
 pergunta = sys.argv[1]
 
 # Envia o contexto junto com a pergunta para o Gemini
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-3.5-flash')
 prompt = f"""
 Você é um assistente de prova. Use estritamente as fontes fornecidas abaixo para responder a pergunta.
 Se as fontes não contiverem a informação, use seu conhecimento geral de DDD, SOLID e Python.
