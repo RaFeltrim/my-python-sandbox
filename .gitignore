@@ -1,0 +1,13 @@
+# Ignorar chave de API local do Gemini
+api_key.txt
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.pytest_cache/
+.DS_Store
+
+# Banco de dados local (SQLite)
+*.db
+*.sqlite
